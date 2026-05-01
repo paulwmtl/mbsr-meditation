@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/so-finden-sie-uns", "destination": "/kontakt", "permanent": true },
+    { "source": "/so-finden-sie-uns/", "destination": "/kontakt", "permanent": true }
+  ]
+}

@@ -1,13 +1,22 @@
-# Apache config for legacy URL redirects (z.B. INWX-Webhosting)
+# Apache config (z.B. INWX-Webhosting)
 
 RewriteEngine On
 
-# Legacy WordPress-style URLs aus alter Site → 301 auf neue Pfade
-RewriteRule ^so-finden-sie-uns/?$ /kontakt.html [R=301,L]
-RewriteRule ^ueber-mich/?$        /ueber-mich.html [R=301,L]
-RewriteRule ^was-ist-stress/?$    /was-ist-stress.html [R=301,L]
-RewriteRule ^literatur/?$         /literatur.html [R=301,L]
-RewriteRule ^poesie/?$            /poesie.html [R=301,L]
+# 1) /xyz (ohne .html) intern auf /xyz.html mappen, falls Datei existiert
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
 
-# Custom 404 page
+# 2) /xyz.html → /xyz  (Pretty URL erzwingen, 301)
+RewriteCond %{THE_REQUEST} \s/+([^\s]+)\.html[\s?]
+RewriteRule ^ /%1 [R=301,L]
+
+# 3) Legacy WordPress-style URLs (mit trailing slash) → Pretty-URL
+RewriteRule ^so-finden-sie-uns/?$ /kontakt [R=301,L]
+RewriteRule ^ueber-mich/$         /ueber-mich [R=301,L]
+RewriteRule ^was-ist-stress/$     /was-ist-stress [R=301,L]
+RewriteRule ^literatur/$          /literatur [R=301,L]
+RewriteRule ^poesie/$             /poesie [R=301,L]
+
+# Custom 404
 ErrorDocument 404 /404.html

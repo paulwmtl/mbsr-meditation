@@ -1,14 +1,27 @@
 # Cloudflare Pages / Netlify redirect rules
 # Format: from  to  status
 
-# Legacy WordPress-style URLs aus alter Site → 301 auf neue Pfade
-/so-finden-sie-uns/  /kontakt.html         301
-/so-finden-sie-uns   /kontakt.html         301
-/ueber-mich/         /ueber-mich.html      301
-/ueber-mich          /ueber-mich.html      301
-/was-ist-stress/     /was-ist-stress.html  301
-/was-ist-stress      /was-ist-stress.html  301
-/literatur/          /literatur.html       301
-/literatur           /literatur.html       301
-/poesie/             /poesie.html          301
-/poesie              /poesie.html          301
+# Legacy WordPress-style Slug-URLs (mit/ohne trailing slash) → saubere Pretty-URL
+/so-finden-sie-uns/  /kontakt          301
+/so-finden-sie-uns   /kontakt          301
+/ueber-mich/         /ueber-mich       301
+/was-ist-stress/     /was-ist-stress   301
+/literatur/          /literatur        301
+/poesie/             /poesie           301
+
+# .html-Variante → Pretty-URL (falls jemand /xyz.html aufruft)
+/index.html               /                       301
+/was-ist-mbsr.html        /was-ist-mbsr           301
+/achtsamkeit.html         /achtsamkeit            301
+/was-ist-stress.html      /was-ist-stress         301
+/kursangebote.html        /kursangebote           301
+/ueber-mich.html          /ueber-mich             301
+/kontakt.html             /kontakt                301
+/forschung.html           /forschung              301
+/impressum.html           /impressum              301
+/datenschutz.html         /datenschutz            301
+/literatur.html           /literatur              301
+/poesie.html              /poesie                 301
+/bildungsurlaub-hessen.html  /bildungsurlaub-hessen  301
+/krankenkasse-mbsr.html      /krankenkasse-mbsr      301
+/mbsr-vergleich.html         /mbsr-vergleich         301
