@@ -1,0 +1,14 @@
+# Cloudflare Pages / Netlify redirect rules
+# Format: from  to  status
+
+# Legacy WordPress-style URLs aus alter Site → 301 auf neue Pfade
+/so-finden-sie-uns/  /kontakt.html         301
+/so-finden-sie-uns   /kontakt.html         301
+/ueber-mich/         /ueber-mich.html      301
+/ueber-mich          /ueber-mich.html      301
+/was-ist-stress/     /was-ist-stress.html  301
+/was-ist-stress      /was-ist-stress.html  301
+/literatur/          /literatur.html       301
+/literatur           /literatur.html       301
+/poesie/             /poesie.html          301
+/poesie              /poesie.html          301

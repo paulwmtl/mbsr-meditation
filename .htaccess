@@ -1,0 +1,13 @@
+# Apache config for legacy URL redirects (z.B. INWX-Webhosting)
+
+RewriteEngine On
+
+# Legacy WordPress-style URLs aus alter Site → 301 auf neue Pfade
+RewriteRule ^so-finden-sie-uns/?$ /kontakt.html [R=301,L]
+RewriteRule ^ueber-mich/?$        /ueber-mich.html [R=301,L]
+RewriteRule ^was-ist-stress/?$    /was-ist-stress.html [R=301,L]
+RewriteRule ^literatur/?$         /literatur.html [R=301,L]
+RewriteRule ^poesie/?$            /poesie.html [R=301,L]
+
+# Custom 404 page
+ErrorDocument 404 /404.html
