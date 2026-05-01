@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seite nicht gefunden (404) - MBSR Meditation</title>
+  <meta name="description" content="Die gesuchte Seite konnte leider nicht gefunden werden. Zurück zur Startseite oder zu den Kursangeboten von MBSR Meditation.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=3">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?v=3">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=3">
+</head>
+<body>
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="MBSR Meditation Startseite">
+        <img class="logo-icon" src="logo-hauswurz.png" alt="" aria-hidden="true" width="40" height="40">
+        <span>MBSR Meditation</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Hauptnavigation">
+        <a href="was-ist-mbsr.html">Was ist MBSR?</a>
+        <a href="achtsamkeit.html">Achtsamkeit</a>
+        <a href="was-ist-stress.html">Stress</a>
+        <a href="kursangebote.html">Kursangebot</a>
+        <a href="ueber-mich.html">Über mich</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="kursangebote.html" class="btn btn-primary nav-cta">Kurs buchen</a>
+      </nav>
+      <button class="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav-overlay" aria-hidden="true"></div>
+    <nav class="mobile-nav" role="navigation" aria-label="Mobile Navigation">
+      <a href="/">Startseite</a>
+      <a href="was-ist-mbsr.html">Was ist MBSR?</a>
+      <a href="achtsamkeit.html">Was ist Achtsamkeit?</a>
+      <a href="was-ist-stress.html">Was ist Stress?</a>
+      <a href="kursangebote.html">Kursangebot</a>
+      <a href="ueber-mich.html">Über mich</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="forschung.html">Forschung</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="kursangebote.html" class="btn btn-primary nav-cta">Kurs buchen</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        <h1>Seite nicht gefunden</h1>
+        <p>Die gesuchte Seite existiert leider nicht (mehr).</p>
+      </div>
+    </div>
+
+    <div class="content-section" style="text-align: center;">
+      <p class="fade-in" style="font-size: 5rem; margin: 20px 0; color: var(--olive); font-family: var(--font-heading);">404</p>
+      <p class="fade-in">Vielleicht hat sich ein Tippfehler eingeschlichen, oder die Seite wurde verschoben. Hier sind ein paar nützliche Wege:</p>
+      <div style="margin-top: 40px;" class="fade-in">
+        <a href="/" class="btn btn-primary">Zur Startseite</a>
+        <a href="kursangebote.html" class="btn btn-secondary" style="margin-left: 12px;">Kursangebote</a>
+        <a href="kontakt.html" class="btn btn-secondary" style="margin-left: 12px;">Kontakt</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo"><img class="logo-icon" src="logo-hauswurz.png" alt="" aria-hidden="true" width="40" height="40"><span>MBSR Meditation</span></div>
+          <p>Achtsamkeitsbasierte Stressreduktion in Groß-Gerau. Zertifizierte MBSR-Kurse nach Jon Kabat-Zinn.</p>
+        </div>
+        <div class="footer-col"><h4>Information</h4><a href="was-ist-stress.html">Was ist Stress?</a><a href="was-ist-mbsr.html">Was ist MBSR?</a><a href="achtsamkeit.html">Achtsamkeit</a><a href="forschung.html">Forschung</a></div>
+        <div class="footer-col"><h4>Angebote</h4><a href="kursangebote.html">Kursangebote</a><a href="ueber-mich.html">Über mich</a><a href="kontakt.html">Kontakt</a></div>
+        <div class="footer-col"><h4>Kontakt</h4><a href="mailto:anwei22acht@gmail.com">anwei22acht@gmail.com</a><a href="tel:+496152857922">06152 / 857922</a><p style="margin-top: 8px; font-size: 0.85rem;">Szamotulystr. 22<br>64521 Groß-Gerau</p></div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 MBSR Meditation &ndash; Andrea Weißmantel</span>
+        <div class="footer-legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger=document.querySelector('.hamburger'),mobileNav=document.querySelector('.mobile-nav'),overlay=document.querySelector('.mobile-nav-overlay');
+    function toggleNav(){const o=mobileNav.classList.toggle('open');hamburger.classList.toggle('active');overlay.classList.toggle('show');hamburger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';}
+    hamburger.addEventListener('click',toggleNav);overlay.addEventListener('click',toggleNav);
+    mobileNav.querySelectorAll('a').forEach(l=>l.addEventListener('click',()=>{if(mobileNav.classList.contains('open'))toggleNav();}));
+    window.addEventListener('scroll',()=>{document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>50);});
+  </script>
+
+  <!-- Vercel Web Analytics (cookie-frei, IP-anonymisiert) -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

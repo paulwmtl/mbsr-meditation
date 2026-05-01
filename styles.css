@@ -1,92 +1,59 @@
 /* ===== LOCAL FONTS (DSGVO-konform) ===== */
+/* Fraunces (Variable Font) – Headlines */
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Fraunces';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400 700;
   font-display: swap;
-  src: url(fonts/lato-300-ext.woff2) format('woff2');
+  src: url(fonts/fraunces-var-latin-ext.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Fraunces';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400 700;
   font-display: swap;
-  src: url(fonts/lato-300.woff2) format('woff2');
+  src: url(fonts/fraunces-var-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* latin-ext */
+/* italic latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400 700;
   font-display: swap;
-  src: url(fonts/lato-400-ext.woff2) format('woff2');
+  src: url(fonts/fraunces-var-italic-latin-ext.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* latin */
+/* italic latin */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400 700;
   font-display: swap;
-  src: url(fonts/lato-400.woff2) format('woff2');
+  src: url(fonts/fraunces-var-italic-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+/* Inter (Variable Font) – Body & UI */
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400 700;
   font-display: swap;
-  src: url(fonts/lato-700-ext.woff2) format('woff2');
+  src: url(fonts/inter-var-latin-ext.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400 700;
   font-display: swap;
-  src: url(fonts/lato-700.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(fonts/playfair-display-400-ext.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(fonts/playfair-display-400.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/playfair-display-700-ext.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/playfair-display-700.woff2) format('woff2');
+  src: url(fonts/inter-var-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -110,8 +77,8 @@
   --text-light: #666666;
   --accent: #8a9a5b;
   --shadow: rgba(0, 0, 0, 0.08);
-  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-body: 'Lato', 'Segoe UI', Arial, sans-serif;
+  --font-heading: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', 'Segoe UI', Arial, sans-serif;
   --max-width: 1200px;
   --section-padding: 80px 0;
 }
@@ -119,6 +86,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -127,6 +96,15 @@ body {
   line-height: 1.7;
   background-color: var(--cream);
   overflow-x: hidden;
+  -webkit-tap-highlight-color: rgba(107, 123, 58, 0.15);
+  hyphens: auto;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+}
+
+h1, h2, h3, h4 {
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 img {
@@ -168,17 +146,23 @@ p {
 /* ===== SKIP LINK (Accessibility) ===== */
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
-  background: var(--olive-dark);
+  top: -60px;
+  left: 12px;
+  background: var(--olive);
   color: var(--white);
-  padding: 8px 16px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
   z-index: 1000;
-  transition: top 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: top 0.25s ease;
 }
 
 .skip-link:focus {
-  top: 0;
+  top: 12px;
+  outline: 2px solid var(--olive-dark);
+  outline-offset: 2px;
 }
 
 /* ===== HEADER & NAVIGATION ===== */
@@ -220,12 +204,9 @@ p {
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--sage);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
+  display: block;
+  object-fit: contain;
 }
 
 /* Desktop Nav */
@@ -370,7 +351,7 @@ p {
   margin: 0 auto;
   padding: 60px 24px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   gap: 60px;
   align-items: center;
 }
@@ -425,7 +406,9 @@ p {
 
 .hero-image img {
   width: 100%;
-  max-width: 500px;
+  max-width: 760px;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
@@ -539,8 +522,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  color: var(--olive-dark);
   margin: 0 auto 20px;
+}
+
+.benefit-icon svg {
+  width: 32px;
+  height: 32px;
 }
 
 .benefit-card h3 {
@@ -647,9 +635,16 @@ p {
 
 .course-detail-icon {
   color: var(--olive);
-  font-size: 1.1rem;
   width: 24px;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.course-detail-icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* ===== TESTIMONIAL / QUOTE ===== */
@@ -749,8 +744,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  color: var(--olive-dark);
   flex-shrink: 0;
+}
+
+.contact-info-icon svg {
+  width: 22px;
+  height: 22px;
 }
 
 .contact-info-card h4 {
@@ -818,6 +818,118 @@ p {
   background: var(--olive-dark);
   color: rgba(255, 255, 255, 0.8);
   padding: 60px 0 30px;
+}
+
+/* ===== DARK CTA SECTION ===== */
+.cta-band {
+  position: relative;
+  background: var(--olive-dark);
+  color: var(--white);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cta-band .container {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+}
+
+.cta-band h2 {
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.cta-band p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  line-height: 1.7;
+}
+
+.cta-band .btn-primary {
+  background: var(--cream);
+  color: var(--olive-dark);
+}
+
+.cta-band .btn-primary:hover {
+  background: var(--white);
+  color: var(--olive-dark);
+}
+
+.cta-band .btn-secondary {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.cta-band .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--white);
+}
+
+/* Light variant of the CTA band */
+.cta-band.cta-band-light {
+  background: var(--sage-light);
+  color: var(--text-dark);
+}
+
+.cta-band.cta-band-light h2 {
+  color: var(--text-dark);
+}
+
+.cta-band.cta-band-light p {
+  color: var(--text-body);
+}
+
+.cta-band.cta-band-light .btn-primary {
+  background: var(--olive-dark);
+  color: var(--white);
+}
+
+.cta-band.cta-band-light .btn-primary:hover {
+  background: var(--olive);
+  color: var(--white);
+}
+
+.cta-band.cta-band-light .btn-secondary {
+  background: transparent;
+  color: var(--olive-dark);
+  border: 2px solid var(--olive-dark);
+}
+
+.cta-band.cta-band-light .btn-secondary:hover {
+  background: var(--olive-dark);
+  color: var(--white);
+}
+
+/* ===== KURSORTE MAP (Leaflet + OpenStreetMap) ===== */
+.kursorte-map {
+  height: 420px;
+  width: 100%;
+  border-radius: 12px;
+  margin: 28px 0 12px;
+  box-shadow: 0 4px 16px var(--shadow);
+  background: var(--sage-light);
+  z-index: 0;
+}
+
+.kursorte-map .leaflet-popup-content {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.mbsr-marker {
+  background: transparent;
+  border: none;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width: 600px) {
+  .kursorte-map {
+    height: 320px;
+  }
 }
 
 .footer-grid {
@@ -1115,8 +1227,97 @@ p {
     justify-content: center;
   }
 
+  /* Stacked buttons: vertical gap statt horizontalem margin-left */
+  .btn + .btn {
+    margin-top: 12px !important;
+    margin-left: 0 !important;
+  }
+
   .quote-section blockquote {
     font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 0 18px;
+  }
+
+  .content-section,
+  .content-section[style] {
+    padding: 40px 18px;
+  }
+
+  .contact-form {
+    padding: 24px 20px;
+  }
+
+  .course-card-body,
+  .benefit-card,
+  .info-box,
+  .symptoms-card {
+    padding: 22px 20px;
+  }
+
+  .course-card-header {
+    padding: 18px 20px;
+  }
+}
+
+/* ===== MOBILE: Touch-Targets & Accessibility ===== */
+@media (max-width: 1024px) {
+  /* Larger tap area for nav links (WCAG 2.5.5: min 44x44px) */
+  .mobile-nav a {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+  }
+
+  .mobile-nav .nav-cta {
+    justify-content: center;
+    min-height: 48px;
+  }
+
+  .hamburger {
+    padding: 12px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Buttons get a tap-friendly minimum height */
+  .btn {
+    min-height: 44px;
+  }
+
+  /* Mobile-Nav darf bei sehr kleinen Screens (< 360px) nicht überquellen */
+  .mobile-nav {
+    width: min(300px, calc(100vw - 56px));
+  }
+
+  /* FAQ-Buttons und andere clickable Items */
+  .faq-question {
+    min-height: 48px;
+  }
+}
+
+/* Sehr kleine Screens (z.B. iPhone SE im Hochformat) */
+@media (max-width: 360px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.4rem; }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    font-size: 1.15rem;
   }
 }
 
